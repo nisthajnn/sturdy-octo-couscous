@@ -1,0 +1,29 @@
+body
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.table-container {
+    margin-top: 20px;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th, .table-container td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .table-container th {
+    background-color: #ff8a5f;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .table-container tbody tr:nth-child(even) {
+    background-color: #fff3bf;
+  }
